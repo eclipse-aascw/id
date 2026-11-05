@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2020 id AUTHORS
+#
+# SPDX-License-Identifier: MIT
+
+version = 1
+
+# The repository consists of Markdown pages which GitHub renders as the
+# documentation of the identifiers, so a header would end up in the rendered
+# output. AUTHORS is plain metadata without a comment syntax.
+[[annotations]]
+path = ["AUTHORS", "**/*.md"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2020 id AUTHORS"
+SPDX-License-Identifier = "MIT"
