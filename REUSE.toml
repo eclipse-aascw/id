@@ -12,3 +12,36 @@ path = ["AUTHORS", "**/*.md"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2020 id AUTHORS"
 SPDX-License-Identifier = "MIT"
+
+# The AAS pages reproduce, unchanged, the definitions of the classes and
+# attributes from the specification "Details of the Asset Administration
+# Shell - Part 1", published by the Federal Ministry for Economic Affairs and
+# Energy (BMWi) and written by Plattform Industrie 4.0 under CC BY-ND 3.0 DE.
+# So these pages carry both: our structure and texts under MIT and the quoted
+# definitions under CC BY-ND 3.0 DE.
+[[annotations]]
+path = "aas/1/0/README.md"
+precedence = "aggregate"
+SPDX-FileCopyrightText = [
+    "2020 id AUTHORS",
+    "2018 Plattform Industrie 4.0 and Federal Ministry for Economic Affairs and Energy (BMWi)",
+]
+SPDX-License-Identifier = "MIT AND CC-BY-ND-3.0-DE"
+
+[[annotations]]
+path = "aas/2/0/README.md"
+precedence = "aggregate"
+SPDX-FileCopyrightText = [
+    "2020 id AUTHORS",
+    "2019 Plattform Industrie 4.0 and Federal Ministry for Economic Affairs and Energy (BMWi)",
+]
+SPDX-License-Identifier = "MIT AND CC-BY-ND-3.0-DE"
+
+[[annotations]]
+path = "aas/3/0/RC01/README.md"
+precedence = "aggregate"
+SPDX-FileCopyrightText = [
+    "2020 id AUTHORS",
+    "2020 Plattform Industrie 4.0 and Federal Ministry for Economic Affairs and Energy (BMWi)",
+]
+SPDX-License-Identifier = "MIT AND CC-BY-ND-3.0-DE"
